@@ -1,7 +1,7 @@
 SELECT 
 ProductID
 ,ProductName
-,SUM(UnitsInStock)*SUM(UnitsOnOrder) AS Inventory_Value
+,SUM(UnitsInStock)*SUM(UnitPrice) AS Inventory_Value
 
 FROM northwind.products
 GROUP BY ProductID
