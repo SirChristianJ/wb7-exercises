@@ -1,6 +1,10 @@
 SELECT
 *
-FROM northwind.shippers;
+FROM northwind.products;
+
+SELECT
+*
+FROM northwind.`order details`;
 
 SELECT
 *
